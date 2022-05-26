@@ -1,0 +1,61 @@
+td {
+    width: 200px;
+    height:200px;
+}
+
+#anima-div{
+    width: 20px;
+    height: 200px;
+    position: relative;
+    border-radius: 0%;
+    animation: mov-div 8s infinite;
+
+}
+
+
+
+@keyframes mov-div{
+  
+
+    0%{top:0px;left:0px;}
+    20%{top:450px;left: 0px;}
+   25%{top:450px;left: 300px;}
+
+   30%{top:950px;left: 300px;}
+   35%{top:950px; left: 470px;}
+
+   40%{top:1500px;left: 470px;}
+   45%{top:1500px; left: 1300px;}
+   50%{top:1700px; left: 1300px;}
+
+   55%{top:1700px; left: 1300px;}
+   60%{top:1500px; left: 1300px;}
+   65%{top:1500px;left: 470px;}
+
+   70%{top:950px; left: 470px;}
+   75%{top:950px;left: 300px;}
+
+   80%{top:450px;left: 300px;}
+   85%{top:450px;left: 0px;}
+   100%{top:0px;left:0px;}
+
+  
+
+
+   
+  
+
+   
+
+
+    
+ 
+    
+ 
+    
+   
+}
+
+
+
+
